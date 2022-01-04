@@ -12,3 +12,8 @@ https://www.geeksforgeeks.org/top-40-python-interview-questions-answers/
 
 Review the Basics
 https://github.com/Asabeneh/30-Days-Of-Python
+
+
+Interview Tips
+https://rauterberg.employee.id.tue.nl/jobs/STAR-method.pdf
+https://leetcode.com/discuss/interview-experience/1658957/Google-or-SDE-2-or-L4-or-Bangalore-or-India-or-November-2021-Offer
