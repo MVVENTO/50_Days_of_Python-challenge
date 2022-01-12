@@ -13,6 +13,9 @@ https://www.geeksforgeeks.org/top-40-python-interview-questions-answers/
 Review the Basics
 https://github.com/Asabeneh/30-Days-Of-Python
 
+Leetcode Solutions : Python
+https://github.com/qiyuangong/leetcode/tree/master/python
+
 
 Interview Tips
 https://rauterberg.employee.id.tue.nl/jobs/STAR-method.pdf
