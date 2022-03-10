@@ -1,0 +1,22 @@
+# You are given the array paths, where paths[i] = [cityAi, cityBi] 
+# means there exists a direct path going from cityAi to cityBi. 
+# Return the destination city, that is, the city without any path outgoing to another city.
+# It is guaranteed that the graph of paths forms a line without any loop, therefore, 
+# there will be exactly one destination city.
+
+
+class Solution:
+    def destCity(self, paths: List[List[str]]) -> str:
+    # create a dictionary
+    
+        outgoing_count = {}
+        for path in paths:
+            city_a, city_b = path
+    # count cities
+            outgoing_count[city_a] = outgoing_count.get(city_a, 0) + 1
+            outgoing_count[city_b] = outgoing_count.get(city_b,0)
+            
+    # print city count
+        for city in outgoing_count:
+            if outgoing_count[city] == 0:
+                return city
